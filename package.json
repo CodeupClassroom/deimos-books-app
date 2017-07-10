@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently 'webpack-dev-server' 'json-server -d1200 --watch db.json'",
+    "build": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,7 +17,9 @@
     "babel-preset-env": "^1.5.2",
     "concurrently": "^3.5.0",
     "jquery": "^3.2.1",
+    "promise-polyfill": "^6.0.2",
     "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.5.0"
+    "webpack-dev-server": "^2.5.0",
+    "whatwg-fetch": "^2.0.3"
   }
 }

@@ -1,10 +1,12 @@
 // for resolving the absolute path to our project
 // necessary for webpack
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   // where our app "starts"
-  entry: './src/index.js',
+  // add the promise and fetch polyfill first
+  entry: ['promise-polyfill', 'whatwg-fetch', './src/index.js'],
   // where to put the transpiled javascript
   output: {
     path: path.resolve(__dirname, 'public'),
@@ -15,7 +17,7 @@ module.exports = {
   module: {
     rules: [
       {
-        // anything file that ends with '.js'
+        // any file that ends with '.js'
         test: /\.js$/,
         // except those in "node_modules"
         exclude: /node_modules/,
