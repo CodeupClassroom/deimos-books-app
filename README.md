@@ -18,7 +18,9 @@ after the `-d` flag inside of the npm `dev` script.
 
 ## Setup
 
-1. Clone this repo
+1. Fork this repository to your own github account or your github organization.
+
+1. Clone your fork
 
 1. Run `npm install`
 
@@ -78,6 +80,6 @@ Delete movies
   pending.
 - Show a loading animation instead of just text that says "loading..."
 - Modals for creating and editing movie forms
-- Sort by rating, title, genre
 - Pagination
 - Movies should have genres
+- Sort by rating, title, genre
