@@ -33,7 +33,7 @@ examples of importing and requiring separate javascript files. Regardless of
 which you choose to use, you should pick one and use it throughout your code
 base, don't mix and match the two.
 
-The file `src/getMovies.js` also contains an example api request. You can
+The file `src/api.js` also contains an example api request. You can
 reference this to get started building out the parts of your application that
 interact with the api.
 
