@@ -7,7 +7,7 @@ sayHello('World');
 /**
  * require style imports
  */
-const getMovies = require('./getMovies.js');
+const {getMovies} = require('./api.js');
 
 getMovies().then((movies) => {
   console.log('Here are all the movies:');
