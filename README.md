@@ -100,10 +100,12 @@ Delete movies
 
 ## Helpful Hints
 
-The id property of every movie should not be edited by hand. The purpose of this
-property is to uniquely identify that particular movie. That is, if we want to
-delete or modify an existing movie, we can specify what movie we want to change
-by referencing it's id. When a new movie is created (i.e.  when you send a
-`POST` request to `/api/movies` with a title and a rating), the server will
-respond with the movie object that was created, including a generated id.
-
+- The id property of every movie should not be edited by hand. The purpose of
+  this property is to uniquely identify that particular movie. That is, if we
+  want to delete or modify an existing movie, we can specify what movie we want
+  to change by referencing it's id. When a new movie is created (i.e.  when you
+  send a `POST` request to `/api/movies` with a title and a rating), the server
+  will respond with the movie object that was created, including a generated id.
+- Take a look at the other branches in this repository, as they have
+  configuration/setup for common scenarios, such as including bootstrap in your
+  application.
