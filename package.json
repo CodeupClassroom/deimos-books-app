@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "concurrently 'webpack-dev-server' 'json-server -d1200 --watch db.json'",
     "build": "webpack -p",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
