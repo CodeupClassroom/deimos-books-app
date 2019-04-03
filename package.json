@@ -19,8 +19,9 @@
     "concurrently": "^3.5.0",
     "json-server": "^0.13.0",
     "promise-polyfill": "^6.0.2",
-    "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.5.0",
-    "whatwg-fetch": "^2.0.3"
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0",
+    "webpack-dev-server": "3.2.1",
+    "whatwg-fetch": "^3.0.0"
   }
 }
